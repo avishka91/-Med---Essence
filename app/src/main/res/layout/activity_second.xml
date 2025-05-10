@@ -139,8 +139,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="439dp"
-        android:layout_height="566dp"
-        android:layout_marginTop="-100dp"
+        android:layout_height="700dp"
+        android:layout_marginTop="-50dp"
         android:layout_marginEnd="1dp"
         android:background="@drawable/utton"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -148,6 +148,104 @@
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.26">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="367dp"
+            android:layout_height="528dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="132dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#007A5F5F"
+                android:foregroundTint="@color/white"
+                app:srcCompat="@drawable/abraham_uihut" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/alex_uihut" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/angel_dayna_uihut" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/angel_dayna_uihut_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/group_1000006288" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/sayma_uihut" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/john_uihut" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
